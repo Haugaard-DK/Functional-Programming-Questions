@@ -19,7 +19,8 @@ Explain in your own words with code examples in Elm and Haskell
   
   ```elm
   
-  -- This Function uses our previously created function to add our chosen number to the numbers that are in the list of numbers that the function is given. --
+  -- This Function uses our previously created function to add our chosen number, --
+  -- to the numbers that are in the list of numbers that the function is given. --
   addToEachElement : List number -> List number
   addToEachElement list =
   List.map (function 3) list
@@ -39,7 +40,8 @@ Explain in your own words with code examples in Elm and Haskell
   ​ Lambda functions are marked with a Backlash ( \ )
   
   ```elm
-  -- Our function here is chosen to use a lambda function marked by the backslash, as we have no interest in using this particular function anywhere else. --
+  -- Our function here is chosen to use a lambda function marked by the backslash, --
+  -- as we have no interest in using this particular function anywhere else. --
   doSomethingWithLambda List number -> List number
   doSomethingWithLambda list =
   List.map (\a -> ((1.5 * a + 3) / 2)) list
