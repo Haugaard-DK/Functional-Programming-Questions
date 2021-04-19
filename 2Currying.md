@@ -44,7 +44,7 @@ Explain in your own words with code examples in Elm and Haskell:
    ```haskell
    -- Haskell is infact so similar to elm in terms of currying that we will use the same examples but just with Haskell --
       multThree :: (Num a) -> a -> a -> a -> a
-      multThree x y z = x * y * Z
+      multThree x y z = x * y * z
       
       applyTwice :: (a -> a) -> a -> a
       applyTwice f x = f (f x)
