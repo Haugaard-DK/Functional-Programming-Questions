@@ -12,19 +12,22 @@ Explain in your own words with code examples in Elm and Haskell
   -- A list of functions in Elm --
   var functionList = [(a -> a * 2), (a -> a - 2), (a -> a + 100)]
   ```
+  ```haskell
+  -- A simple Haskell function to add two numbers together --
+  simpleAddFunction :: Integer -> Integer -> Integer
+  simpleAddFunction = A B = A + B
+  ```
 
 * higher order functions
 
   ​	Returns a function as its result or takes one or more functions as arguments
   
   ```elm
-  
   -- This Function uses our previously created function to add our chosen number, --
   -- to the numbers that are in the list of numbers that the function is given. --
   addToEachElement : List number -> List number
   addToEachElement list =
   List.map (function 3) list
-  
   ```
 
 * lambdas
@@ -45,6 +48,11 @@ Explain in your own words with code examples in Elm and Haskell
   doSomethingWithLambda List number -> List number
   doSomethingWithLambda list =
   List.map (\a -> ((1.5 * a + 3) / 2)) list
+  ```
+  ```haskell
+  -- Here our previous Haskell function is turned into a lambda or anonymous function --
+  simpleAddFunction :: Integer -> Integer -> Integer
+  simpleAddFunction = (\A B = A + B)
   ```
 
   
