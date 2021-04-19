@@ -33,7 +33,8 @@ Explain in your own words with code examples in Elm and Haskell:
      -- to multiply the elements within it by our chosen numbers --
      mapExample : List number -> List number
      mapExample list = List.map (multThree 2 2) list
-     -- This should then result in every element within the list being passed through the multThree function as (2 * 2 * listElement) --
+     -- This should then result in every element within the list being passed through --
+     -- the multThree function as (2 * 2 * listElement) --
      ```
 
   * Haskell
@@ -51,7 +52,7 @@ Explain in your own words with code examples in Elm and Haskell:
       putTogether :: number
       putTogether = applyTwice (multThree 2 3) 4
       
-      mapExample :: List number -> List Number
+      mapExample :: List number -> List number
       mapExample list = List.Map (multThree 2 2) list
    ```
 
