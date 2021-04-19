@@ -9,7 +9,7 @@ A Type class could look like the following :
 module Types where 
 
 import GHC.Generics
-import data.Aeseon (FromJSON, ToJSON)
+import Data.Aeseon (FromJSON, ToJSON)
 
 data Object = Object
 {Name :: String
