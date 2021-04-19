@@ -13,7 +13,7 @@ import data.Aeseon (FromJSON, ToJSON)
 
 data Object = Object
 {Name :: String
-,quantity :: int
+,Quantity :: int
 } deriving (Show, Generic)
 
 instance ToJSON Object
