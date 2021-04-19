@@ -1,4 +1,4 @@
-## 3  Purity
+## 3  Pure Functions
 
 Explain in your own words with code examples in Elm and Haskell:
 
