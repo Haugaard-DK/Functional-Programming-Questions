@@ -55,10 +55,11 @@
   * One can also use union types to make sure there is always a possible response when trying to send or receive a Http request.
 
   ```elm
-  -- This could look something like this, though it must be noted this is simply a mock example and not based on any real error handling --
+  -- This could look something like this, though it must be noted this is simply a mock example --
+  -- and not based on any real error handling --
   type httpGetRequest
     = WhatYouWant String
-    | loadingResponse String
-    | successResponse String
-    | failureResponse String
+    | loading String
+    | success String
+    | failure String
   ```
