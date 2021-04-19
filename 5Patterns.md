@@ -1,7 +1,5 @@
 ## 5 Patterns
 
-Explain in your own words with code examples in Elm and Haskell:
-
 We can use pattern matching to split a data structure up
 
 * How to use pattern matching to destruct various data structures as:
