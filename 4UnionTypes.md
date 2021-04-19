@@ -19,9 +19,9 @@
   ```haskell
   data Maybe a
 
-  ​	= Nothing| 
+  ​	= Nothing 
 
-  ​	Just a
+  ​	| Just a
 
   ```
   
