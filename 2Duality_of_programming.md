@@ -25,7 +25,3 @@ Explain in your own words with code examples in Elm and Haskell:
 * Typical currying use cases
 
   ​	
-
-  
-
-  Code examples in other languages are encouraged as a supplement.
