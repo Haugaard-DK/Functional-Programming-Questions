@@ -1,4 +1,4 @@
-## 2  Duality of programming
+## 2  Currying
 
 Explain in your own words with code examples in Elm and Haskell:
 
