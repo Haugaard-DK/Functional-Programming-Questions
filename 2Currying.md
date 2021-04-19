@@ -1,7 +1,5 @@
 ## 2  Currying
 
-Explain in your own words with code examples in Elm and Haskell:
-
 * The principle of currying
 
    ​	Currying is the technique of converting a function that takes multiple arguments into a sequence of functions that each take a single argument
