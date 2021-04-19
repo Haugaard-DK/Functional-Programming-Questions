@@ -33,7 +33,7 @@
 
 * How to handle errors using union types
 
-  *In the case that the union type value that you want to use can be unset in one way or another, one can use a maybe type to circumvent any potential Null Pointer errors. these maybe types are written a little differently in Elm and Haskell but do look somewhat similar, they can be seen just below this.
+  * In the case that the union type value that you want to use can be unset in one way or another, one can use a maybe type to circumvent any potential Null Pointer errors. these maybe types are written a little differently in Elm and Haskell but do look somewhat similar, they can be seen just below this.
   
   ```elm
   type Maybe a
