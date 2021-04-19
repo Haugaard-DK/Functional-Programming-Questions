@@ -19,3 +19,5 @@ data Object = Object
 instance ToJSON Object
 instance FromJSON Object
 ```
+
+Although you'll probably have more than one object in your type class.
