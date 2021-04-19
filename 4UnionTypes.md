@@ -59,7 +59,7 @@
   -- and not based on any real error handling --
   type httpGetRequest
     = WhatYouWant String
-    | loading String
-    | success String
-    | failure String
+    | LoadingResponse String
+    | SuccessResponse String
+    | FailureResponse String
   ```
