@@ -1,7 +1,5 @@
 ## 1  Functions
 
-Explain in your own words with code examples in Elm and Haskell
-
 * Functions as first class citizens
 
   ​	Allows you to pass functions as variables
