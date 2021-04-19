@@ -12,9 +12,9 @@ import GHC.Generics
 import Data.Aeseon (FromJSON, ToJSON)
 
 data Object = Object
-{Name :: String
-,Quantity :: Int
-} deriving (Show, Generic)
+  {name :: String
+  ,quantity :: Int
+  } deriving (Show, Generic)
 
 instance ToJSON Object
 instance FromJSON Object
