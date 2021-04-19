@@ -1,7 +1,5 @@
 ## 4  Union Types
 
-Explain in your own words with code examples in Elm and Haskell:
-
 * How to handle polymorphism using union types
 
 * How to handle errors using union types
@@ -10,16 +8,21 @@ Explain in your own words with code examples in Elm and Haskell:
 
   Elm and Haskell have different syntax for union types:
 
+  ```elm
   type Maybe a
 
   ​	= Just a
 
   ​	| Nothing
+  ``` 
 
+  ```haskell
   data Maybe a
 
   ​	= Nothing| 
 
   ​	Just a
 
+  ```
+  
   
