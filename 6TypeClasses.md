@@ -1,23 +1,13 @@
 # 06 Type Classes
 
+A Typeclass is a type of polymorphsim where you can have a range of types that have something in common, some examples could be:
 
-A Type class is a class used to instatiate different types of objects along with the rest of the project so that any errors are encountered as early as possible.
+Number: Integer, Float...
 
-A Type class could look like the following :
+Show: Strings, Numbers...
 
-```haskell 
-module Types where 
+Order: Integer, String, Float...
 
-import GHC.Generics
-import Data.Aeseon (FromJSON, ToJSON)
+EQ: All except IO
 
-data Object = Object
-  {name :: String
-  ,quantity :: Int
-  } deriving (Show, Generic)
-
-instance ToJSON Object
-instance FromJSON Object
-```
-
-Although you'll probably have more than one object in your type class.
+And many more...
