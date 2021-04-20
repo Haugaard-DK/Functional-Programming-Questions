@@ -4,6 +4,19 @@
 
   * –lists
 
+   ```elm
+   -- Destructuring of a list --
+   listToString : List String -> String
+   listToString list =
+    case list of
+     [] -> ""
+     head :: tail -> head ++ ", " ++ listToString tail
+   -- This function will take a list of strings and convert it all to a string, --
+   -- We also check for whether or not the list is empty, and if it is we make it return an empty string. --
+   -- Should the list however turn out to not be empty then we first check if the list has a head and a tail, --
+   -- we then return a string containing the head with a recursive call towards the tail of the list --
+   ```
+
   * –tuples
 
     A tuple can be destructured as early as in the parameters of a function
