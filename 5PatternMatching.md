@@ -9,7 +9,7 @@
     A tuple can be destructured as early as in the parameters of a function
     
     ```elm
-    -- Destructuring of a tuple --
+    -- Simple Destructuring of a tuple --
     vectorToString : Vector -> String
     vectorToString (x, y) =
     "(" ++ String.fromFloat x ++ "," ++ String.fromFloat y ++ ")"
@@ -20,6 +20,7 @@
     Records can be destructured the same way
     
     ```elm
+    -- Destructuring of record --
     type alias Vector = (Float, Float)
 
     type alias NamedPoint =
