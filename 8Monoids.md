@@ -12,5 +12,5 @@ For instance, these are all monoids:
 
 To put all this in to an example lets do the following:
 * Two elements combined must create an element of the same set [eg. 2+3=5, we get another natural number]
-* Each element combined with the neutral element give back the same element [eg. 0+2=2 and 2+0=2]
+* Each element combined with the neutral element must give back the same element [eg. 0+2=2 and 2+0=2]
 * Composition must be associative [eg. (1+2)+3=1+(2+3)]
