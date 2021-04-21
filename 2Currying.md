@@ -17,7 +17,7 @@
      ```elm
      -- A simple example of currying could be something like the following function. --
      multThree : number -> number -> number -> number
-     multThree x y z = x * y * Z
+     multThree x y z = x * y * z
      
      -- A function can also use another function in its call, like the following: --
      applyTwice : (a -> a) -> a -> a
