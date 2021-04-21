@@ -43,7 +43,7 @@
   ```elm
   -- Our function here is chosen to use a lambda function marked by the backslash, --
   -- as we have no interest in using this particular function anywhere else. --
-  doSomethingWithLambda List number -> List number
+  doSomethingWithLambda : List number -> List number
   doSomethingWithLambda list =
   List.map (\a -> ((1.5 * a + 3) / 2)) list
   ```
