@@ -25,7 +25,7 @@
      
      putTogether : number
      putTogether = applyTwice (multThree 2 3) 4
-     -- This should then return 96, the math behind sounds as following (((2 * 2 * 2 = 8) * 3 = 24) * 4 = 96) --
+     -- This should then return 96, the math behind sounds as following ((2 * 3 * 2 * 3 = 36) * 4 = 144) --
      
      -- Our good old multThree function can also easily be used in conjunction with the map function --
      -- to multiply the elements within it by our chosen numbers --
