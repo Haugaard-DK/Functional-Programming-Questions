@@ -23,14 +23,14 @@ A Union Type is a simple type that can be one of multiple different sub-types.
   getSubjectStatus : Subject -> String
   getSubjectStatus subject =
     case subject.status of
-      Alive ->
-        "Subject " ++ subject.number ++ " is currently still alive..."
-      Somewhat_Dead ->
-        "Subject " ++ subject.number ++ " is currently not looking as well as before..."
-      Mostly_Dead ->
-        "Subject " ++ subject.number ++ " is currently looking as if it is on its last legs..."
-      Very_Dead ->
-        "Subject " ++ subject.number ++ " has reached rigor mortis..."
+        Alive ->
+            "Subject " ++ fromInt(subject.number) ++ " is currently still alive..."
+        Somewhat_Dead ->
+            "Subject " ++ fromInt(subject.number) ++ " is currently not looking as well as before..."
+        Mostly_Dead ->
+            "Subject " ++ fromInt(subject.number) ++ " is currently looking as if it is on its last legs..."
+        Very_Dead ->
+            "Subject " ++ fromInt(subject.number) ++ " has reached rigor mortis..."
 ```
 
 * How to handle errors using union types
