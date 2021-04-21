@@ -57,11 +57,18 @@ A Union Type is a simple type that can be one of multiple different sub-types.
   * One can also use union types to make sure there is always a possible response when trying to send or receive a Http request.
 
   ```elm
-  -- This could look something like this, though it must be noted this is simply a mock example --
-  -- and not based on any real error handling --
-  type httpGetRequest
-    = WhatYouWant String
-    | LoadingResponse String
-    | SuccessResponse String
-    | FailureResponse String
+  -- This could look something like this --
+  errorToString : Http.Error -> String
+  errorToString error =
+    case error of
+        BadUrl url ->
+            ("Error, bad url: "++ url)
+        Timeout ->
+            "Error, connection timed out"
+        NetworkError ->
+            "Network Error"
+        BadStatus code ->
+            ("Error "++ String.fromInt code)
+        BadBody errMsg ->
+            ("Something went wrong with the body: " ++ errMsg)
   ```
