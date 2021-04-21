@@ -1,5 +1,7 @@
 ## 4  Union Types
 
+A Union Type is a simple type that can be one of multiple different sub-types.
+
 * How to handle polymorphism using union types
 
 ```elm
