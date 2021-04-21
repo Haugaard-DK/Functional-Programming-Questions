@@ -32,7 +32,7 @@
      mapExample : List number -> List number
      mapExample list = List.map (multThree 2 2) list
      -- This should then result in every element within the list being passed through --
-     -- the multThree function as (2 * 2 * listElement) --
+     -- the multThree function as ((2 * 2 * 2 * 2) * listElement) --
      ```
 
   * Haskell
