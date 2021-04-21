@@ -5,10 +5,10 @@
   ​	Allows you to pass functions as variables
   ```elm
   -- A Function in Elm --
-  function = a b -> a + b
+  function = \a b -> a + b
   
   -- A list of functions in Elm --
-  var functionList = [(a -> a * 2), (a -> a - 2), (a -> a + 100)]
+  var functionList = [(\a -> a * 2), (\a -> a - 2), (\a -> a + 100)]
   ```
   ```haskell
   -- A simple Haskell function to add two numbers together --
